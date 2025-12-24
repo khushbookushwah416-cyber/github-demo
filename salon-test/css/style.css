@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#fcf5ee;
+    font-family:Poppins;
+
+}
+.header {
+    width: 100%;
+    background: white;
+   
+}
+.logo {
+    max-width: 250px;
+}
+.logo img {
+      width: 200px;
+    padding: 10px;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li {
+    padding: 20px;
+    color: #850E35;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 600;
+}
+.banner{
+      background-image: url(../image/bgsp.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 50%;
+    margin-left: -100px;
+}
+.bnaner-main {
+    width: 100%;
+    float: left;
+}
+h1.heading {
+ 
+    float: right;
+  padding-bottom: 18px;
+    color: #850E35;
+       font-size: 73px;
+    margin-top: 68px;
+}
+p.para {
+    font-size: 17px;
+    font-weight: 100;
+    color:#b57f8a;
+    padding-top: 18px;
+    float:right;
+}
+.banner-text {
+    float: right;
+    width: 50%;
+      margin-top: 48px;
+}
+button{
+        margin-top: 18px;
+    padding: 12px 31px;
+    font-size: 13px;
+    color: #850E35;
+    font-weight: 700;
+ background: linear-gradient(92deg,rgba(255, 196, 196, 1) 0%, rgba(252, 245, 238, 0.52) 99%);
+    border-radius: 10px;
+    border: 1px solid #850e35;
+}
+p.para1 {
+    padding-top: 18px;
+    color: #7d6362;
+    font-size: 20px;
+    font-weight: 600;
+}
+section.about {
+    float: left;
+    width: 100%;
+    padding: 70px 0;
+    display: flex;
+}
+.about-main {
+    width: 50%;
+    padding: 39px;
+    text-align: center;
+    line-height: 24px;
+}
+.bn-im {
+    width: 50%;
+}
+.bn-im img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; }
+
+h2.about-heading {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: 900;
+    color: #850e35;
+}
+p.about-p {
+    font-size: 17px;
+    color: #b57f8a;
+    word-spacing: 5px;
+    padding: 0 25px 0 25px;
+}
+button.more-about {
+    text-transform: capitalize;
+    font-size: 15px;
+    padding: 15px 25px;
+}
+.more-about:hover{
+    color: white;
+    transition: 0.4s;
+    background: linear-gradient(92deg,rgba(255, 196, 196, 1) 0%, rgba(238, 105, 131, 0.52) 99%);
+}
+span.right-icon {
+    margin-left: 0px;
+    font-size: 17px;
+    font-weight: bold;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.more-about:hover span.right-icon{ 
+    visibility: visible;
+    margin-left: 6px;
+}
