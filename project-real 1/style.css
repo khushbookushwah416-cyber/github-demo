@@ -1,0 +1,1776 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Rubik"
+}
+
+
+.container {
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.header {
+    width: 100%;
+    float: left;
+    background-color: #0088cc;
+    padding: 10px 0px;
+    font-size: 14px;
+}
+
+.headerpart1 {
+    float: left;
+    display: inline-block;
+}
+
+.headerpart1 li {
+    list-style: none;
+    display: inline-block;
+    padding: 4px;
+    position: relative;
+}
+
+
+.dropdown1 li {
+    width: 100%;
+    float: left;
+    display: list-item;
+
+
+
+}
+
+.dropdown1 a {
+    width: 100%;
+
+    margin: 0;
+    transition: 0.5s;
+    float: left;
+    margin: 0px !important;
+    color: #696767 !important;
+}
+
+
+.dropdown1 li:hover {
+    background-color: #dddddd33;
+}
+
+.headerpart1 .dropdown1 {
+    position: absolute;
+    width: 100%;
+    float: left;
+    top: 25px;
+    left: 0px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px 0px;
+    box-shadow: 0px 0px 10px #ddd;
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(-10px) scaley(0);
+    height: 0px;
+    overflow: hidden;
+}
+
+.headerpart1 li:hover ul.dropdown1 {
+    transform: translateY(10px) scaley(1);
+    opacity: 1;
+    display: block;
+    height: 59px;
+}
+
+
+
+
+.headerpart1 a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #b3dcf0;
+}
+
+.headerpart1 i.fa.fa-angle-down {
+    margin-left: 2px;
+}
+
+.headerpart2 {
+    float: left;
+    margin-left: 218px;
+}
+
+.headerpart2 a {
+    text-decoration: none;
+    color: #b3dcf0;
+}
+
+
+.headerpart2 li {
+    margin-right: 20px;
+    list-style: none;
+    display: inline-block;
+    color: #b3dcf0;
+    padding: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.headerpart3 li {
+    list-style: none;
+    display: inline-block;
+    color: #b3dcf0;
+}
+
+
+.headerpart3 {
+    float: right;
+}
+
+.headerpart3 a {
+    width: 25px;
+    display: inline-block;
+    text-decoration: none;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 4px;
+    color: #b3dcf0;
+    transition: 0.5s;
+}
+
+.headerpart3 a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.banner1 {
+    width: 100%;
+    float: left;
+    padding: 30px 0px;
+}
+
+.banner1img {
+    width: 126px;
+    float: left;
+}
+
+.banner1img img {
+    width: 100%;
+    float: left;
+}
+
+.banner1searchbox {
+    width: 491px;
+    float: left;
+    margin-left: 100px;
+    box-shadow: 0px 0px 10px #ddd;
+    border-radius: 30px;
+}
+
+.banner1searchbox form {
+    width: 91%;
+    float: left;
+}
+
+.banner1searchbox input {
+    padding: 14px;
+    width: 65%;
+    border: none;
+    border-radius: 30px;
+}
+
+
+
+.banner1searchbox select {
+    padding: 14px 15px;
+    border: none;
+    border-left: 1px solid #ddd;
+}
+
+
+.banner1searchbox a {
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    padding: 13px;
+    border-left: 1px solid #ddd;
+    color: #817a7a;
+}
+
+input:focus {
+    outline: none;
+}
+
+select:focus {
+    outline: none;
+}
+
+.banner1right {
+    float: right;
+}
+
+.banner1right {
+    float: right;
+    width: 375px;
+}
+
+.banner1call {
+    width: 59%;
+    float: left;
+}
+
+.banner1call i.fa.fa-phone {
+    font-size: 40px;
+    color: black;
+    float: left;
+}
+
+.banner1call p {
+    float: left;
+    font-size: 13px;
+    color: #625f5f;
+    margin-left: 10px;
+}
+
+.banner1call a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-left: 10px;
+    font-size: 20px;
+
+}
+
+.banner1shop {
+    float: left;
+}
+
+.banner1shop li {
+    list-style: none;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.banner1shop i {
+    font-size: 32px;
+    color: black;
+}
+
+.banner1shop a{display: inline-block;
+text-decoration: none;}
+
+
+.banner1boxes {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.banner1box1 {
+    width: 33.33%;
+    float: left;
+    padding: 25px 25px 25px 50px;
+}
+
+.banner1box2 {
+    width: 33.33%;
+    float: left;
+    padding: 25px 25px 25px 65px;
+    border-left: 1px solid #ddd;
+}
+
+.banner1box3 {
+    width: 33.33%;
+    float: left;
+    padding: 25px 25px 25px 83px;
+    border-left: 1px solid #ddd;
+
+}
+
+.banner1boxes span.box1 {
+    float: left;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.banner1boxes h3 {
+    float: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.banner1boxes p {
+    float: left;
+    font-size: 14px;
+    color: #a6a2a2;
+    font-weight: 300;
+}
+
+i.fa.fa-usd {
+    width: 30px;
+    height: 30px;
+    font-size: 21px;
+    border: 3px solid;
+    border-radius: 50%;
+    text-align: center;
+    padding: 2px;
+}
+
+
+.banner2 {
+    width: 100%;
+    float: left;
+}
+
+.banner2list {
+    width: 25%;
+    float: left;
+    border: 1px solid #ddd;
+}
+
+.banner2list h3 {
+    background: #e9e4e473;
+    padding: 15px 20px;
+    font-size: 17px;
+}
+
+
+.banner2list li {
+    list-style: none;
+    padding: 0px 20px;
+    transition: 0.5s;
+    position: relative;
+}
+
+.banner2list a {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: #000000b3;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0px;
+    transition: 0.5s;
+}
+
+span.rule {
+    float: right;
+}
+
+.banner2list i {
+    margin-right: 5px;
+}
+
+li.lock1 {
+    background: #0088cc;
+    margin-bottom: 1px;
+}
+
+.lock1 a {
+    border: none;
+    color: white;
+}
+
+
+
+.banner2list li:hover {
+    background: #0088cc;
+}
+
+.banner2list li:hover a {
+    border: none;
+    color: white;
+}
+
+
+.banner2list li:hover .dropdown2 a {
+    border: none;
+    color: black;
+}
+
+
+.banner2list li:hover .dropdown2part2hover a {
+    border: none;
+    color: white;
+}
+
+
+.banner2list li:hover .dropdown2part2hover a {
+    background-color: black;
+}
+
+
+
+.banner2list li:hover .dropdown2part1 a {
+    background: white;
+}
+
+span.new {
+    background: #eb2771;
+    font-size: 9px;
+    padding: 2px;
+    color: white;
+    vertical-align: middle;
+    margin-left: 7px;
+    border-radius: 4px;
+}
+
+
+ul.dropdown2 {
+    float: left;
+    width: 600px;
+    position: absolute;
+    top: 0;
+    right: -550px;
+
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 10px #ddd;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+ul.dropdown2::after {
+    width: 16px;
+    height: 16px;
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: -8px;
+    z-index: 5;
+    transform: rotate(45deg);
+    background-color: white;
+}
+
+
+.banner2list li:hover ul.dropdown2 {
+    opacity: 1;
+    visibility: visible;
+    right: -600px;
+}
+
+
+.dropdown2part1 {
+    width: 33%;
+    float: left;
+    padding: 10px;
+}
+
+.dropdown2part2 {
+    width: 33%;
+    float: left;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.dropdown2part1 li {
+    padding: 0;
+}
+
+.dropdown2part1 a {
+    padding: 10px;
+    font-size: 13px;
+    color: #898585;
+
+}
+
+.dropdown2 a:hover {
+    text-decoration: underline;
+}
+
+.dropdown2 P {
+    padding: 10px;
+}
+
+
+
+.dropdown2part2 img {
+    transform: translateX(-61px);
+}
+
+.dropdown2part2hover {
+    width: 60%;
+    float: left;
+    position: absolute;
+    top: 30%;
+}
+
+.dropdown2part2hover p {
+    font-size: 25px;
+    font-weight: 800;
+    color: #5d5a5a;
+}
+
+.dropdown2part2hover a {
+    background: black;
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+    margin-left: 10px;
+    display: inline;
+}
+
+
+img.newlook {
+    height: 310px;
+    width: 100%;
+    transform: translateX(0px) translateY(-1px);
+}
+
+.dropdown2part2hover a:hover {
+    text-decoration: none;
+}
+
+
+ul.dropdown3 {
+    float: left;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    right: -150px;
+    background-color: white;
+    padding: 5px 0px;
+    box-shadow: 0px 0px 10px #ddd;
+    z-index: 2;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+ul.dropdown3::after {
+    width: 16px;
+    height: 16px;
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: -8px;
+    z-index: 5;
+    transform: rotate(45deg);
+    background-color: white;
+}
+
+
+.dropdown3 li {
+    padding: 0;
+    position: relative;
+}
+
+
+.dropdown3 a {
+    padding: 10px;
+    border: none;
+    color: #666363;
+    font-size: 14px;
+}
+
+.dropdown3 li:hover {
+    background: rgb(0 0 0 / 3%);
+}
+
+.banner2list li:hover .dropdown3 a {
+    border: none;
+    color: #474747;
+}
+
+
+.dropdown-inner {
+    float: left;
+    background-color: white;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    right: -200px;
+    overflow: hidden;
+    padding: 5px 0px;
+    box-shadow: 0px 0px 10px #ddd;
+    z-index: 2;
+    transition: 0.5s;
+
+    opacity: 0;
+    display: none;
+}
+
+
+.banner2list li:hover ul.dropdown3 {
+    opacity: 1;
+    visibility: visible;
+    right: -200px;
+}
+
+.dropdown3 li:hover ul.dropdown-inner {
+    opacity: 1;
+    display: block;
+    width: 200px;
+}
+
+.banner2item {
+    width: 75%;
+    float: left;
+    padding-left: 10px;
+    height: 452px;
+    position: relative;
+}
+
+.banner2item img {
+    width: 100%;
+    height: 452px;
+}
+
+.banner2itemhover {
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 100px;
+    padding: 0px 50px;
+}
+
+.banner2itemhover h4 {
+    color: rgba(255, 255, 255, 0.788);
+}
+
+.banner2itemhover h2 {
+    font-size: 44px;
+    margin-top: 11px;
+    color: white;
+    font-family: "Edu NSW ACT Cursive"
+}
+
+.banner2itemhover h3 {
+    font-size: 67px;
+    color: white;
+}
+
+.banner2itemhover h5 {
+    font-size: 12px;
+    color: white;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.banner2itemhover span {
+    margin-left: 15px;
+    background: red;
+    float: inline-end;
+    padding: 5px;
+    transform: rotate(-3deg);
+}
+
+.banner2itemhover a {
+    margin-left: 10px;
+    font-size: 13px;
+    padding: 13px 15px;
+    background: black;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    margin-top: 20px;
+    vertical-align: middle;
+}
+
+
+.banner3 {
+    margin-top: 20px;
+    width: 100%;
+    float: left;
+}
+
+.banner3part1 {
+    float: left;
+    width: 25%;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.banner3part1 h5 {
+    letter-spacing: 6px;
+    color: #8c8a8a;
+}
+
+.banner3part1img {
+    margin: 20px;
+}
+
+.banner3part1img img {
+    max-width: 100%;
+}
+
+.banner3part1text a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    font-size: 13px;
+    background: black;
+    padding: 10px 25px;
+}
+
+.banner3part2 {
+    width: 75%;
+    float: left;
+    padding-left: 10px;
+}
+
+
+
+.banner3boxes {
+    width: 100%;
+    float: left;
+}
+
+.banner3box1 img {
+    width: 100%;
+    float: left;
+
+}
+
+.banner3box1 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.banner3box1hover {
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+
+.banner3box1 h3 {
+    font-size: 24px;
+}
+
+.banner3box1hover a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.banner3box2 {
+    padding: 14px 10px;
+    width: 100%;
+    float: left;
+    position: relative;
+    text-align: center;
+    background: #dadada;
+
+}
+
+
+.banner3box2hover {
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+
+.banner3box2hover a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-top: 28px;
+}
+
+.banner3box2 img {
+    width: 100%;
+    float: left;
+}
+
+.banner3box2 h3 {
+    font-size: 21px;
+}
+
+.banner3box2 h4 {
+    color: #7b7676;
+    font-size: 13px;
+}
+
+
+.banner3box3 {
+
+    width: 100%;
+    float: left;
+    position: relative;
+
+    background: #dadada;
+}
+
+
+.banner3box3hover {
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 35px;
+    right: -126px;
+}
+
+
+.banner3box3hover a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-top: 28px;
+}
+
+.banner3box3 img {
+    width: 100%;
+    float: left;
+}
+
+.banner3box3hover h3 {
+    font-size: 24px;
+}
+
+.banner3box3hover h4 {
+    font-size: 14px;
+    color: #ff7271;
+}
+
+.banner3box3hover a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-top: 28px;
+    margin-left: 35px;
+}
+
+.banner3boxes1 {
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+
+.banner3boxes2 {
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+
+.banner3boxes3 {
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+
+
+
+.outers {
+    margin-right: 10px;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+.banner4part1 {
+    width: 75%;
+    float: right;
+}
+
+.banner4box1 {
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.banner4innerbox1 {
+    width: 100%;
+    float: left;
+}
+
+.banner4box1 a {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.banner4img {
+    width: 100%;
+    float: left;
+    height: 200px;
+    position: relative;
+}
+
+.banner4img img {
+    width: 100%;
+    float: left;
+    height: 200px;
+}
+
+.banner4imgbutton {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+.banner4text1 {
+    background: #64c264;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 3px 12px;
+}
+
+.banner4text2 {
+    background: red;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 3px 12px;
+    margin-top: 7px;
+}
+
+.banner4icon a {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    text-align: center;
+    background: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 7px;
+    color: black;
+    border: 1px solid #ddd;
+    display: none;
+    opacity: 0;
+}
+
+.banner4innerbox1:hover .banner4icon a {
+    opacity: 1;
+    display: block;
+    transform: 0.5s;
+}
+
+
+.banner4icon a:hover {
+    background-color: #49a8d8c9;
+    color: white;
+    transition: 0.5s;
+    border: none;
+}
+
+.banner4innerbox1:hover .banner4text3 {
+    display: none;
+    opacity: 0;
+}
+
+.banner4text3 {
+    position: absolute;
+    bottom: 0;
+    left: 9px;
+    background: #49a8d8c9;
+    margin: 10px 5px 9px 5px;
+}
+
+.banner4text3 p {
+    color: white;
+    width: 100%;
+    font-size: 8px;
+    padding: 10px;
+}
+
+
+.banner4hover1 {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    float: left;
+    text-align: center;
+    background: #26adf1fb;
+    transform: translatey(30px);
+    opacity: 0;
+    transition: 0.5s;
+    visibility: hidden;
+
+}
+
+
+.banner4hover1 a {
+    color: white;
+    text-decoration: none;
+    padding: 13px;
+}
+
+.banner4innerbox1:hover .banner4hover1 {
+    opacity: 1;
+    transform: translatey(0px);
+    visibility: visible;
+}
+
+.banner4part2text {
+
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.banner4aicon a {
+    display: inline;
+    color: #a19e9e;
+    font-size: 11px;
+}
+
+.banner4aicon span {
+    float: right;
+    font-size: 14px;
+    margin-top: 3px;
+    margin-right: 1px;
+}
+
+.banner4part2text h3 {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.banner4part2text a {
+    color: #585757;
+}
+
+.banner4part2text a:hover {
+    color: #26adf1fb;
+}
+
+.banner4aicon a:hover {
+    color: #26adf1fb;
+}
+
+
+i.fa.fa-star {
+    font-size: 13px;
+    color: #615e5e;
+}
+
+.banner4part2icon {
+    margin-top: 8px;
+}
+
+.banner4part2text h2 {
+    margin-top: 15px;
+    color: #4b4949;
+    font-size: 20px;
+}
+
+.Cut {
+    width: 75%;
+    float: left;
+    padding: 20px;
+    color: #635f5f;
+}
+
+
+.banner4part2 {
+    width: 25%;
+    float: left;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 30px 26px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.banner4part2 h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #2c2b2b;
+}
+
+.banner4part2 p {
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+.banner4searchbox {
+    margin-top: 20px;
+    border-radius: 30px;
+    background: white;
+    padding: 12px;
+}
+
+
+.banner4searchbox form {
+    display: inline-block;
+}
+
+.banner4searchbox span {
+    float: left;
+}
+
+.banner4searchbox input {
+    width: 181px;
+    border-style: none;
+}
+
+.banner4part2 a {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+    background: #0088cc;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+
+.break {
+    width: 100%;
+    float: left;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-top: 10px;
+    color: #4d4949;
+}
+
+.banner5 {
+    width: 100%;
+    float: left;
+}
+
+.banner5part1 {
+    width: 25%;
+    float: left;
+    border: 3px solid blue;
+    padding: 40px 20px;
+    margin-top: 15px;
+}
+
+.banner5part1top {
+    width: 100%;
+    float: left;
+}
+
+.banner5part1img {
+    width: 30%;
+    float: left;
+    padding: 0px 10px 10px 0px;
+
+}
+
+.banner5part1img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.banner5part1left {
+    width: 70%;
+    float: left;
+    padding-top: 12px;
+}
+
+.banner5part1left h4 {
+    font-size: 15px;
+}
+
+.banner5part1left p {
+    font-weight: 400;
+    font-size: 11px;
+    margin-top: 4px;
+}
+
+i.fa.fa-commenting {
+    font-size: 30px;
+    float: left;
+}
+
+.banner5part1text {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.banner5part1text p {
+    padding-left: 39px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6c6a6a;
+}
+
+.banner5part2 {
+    width: 75%;
+    float: right;
+}
+
+.banner5boxes {
+    width: 100%;
+    float: left;
+}
+
+.banner5box1 {
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+
+
+.banner5box1 h4 {
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.banner5innerbox {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+
+.banner5innerboximg {
+    width: 30%;
+    float: left;
+    height: 79px;
+    /* border: 1px solid; */
+    position: relative;
+}
+
+.banner5innerboximg img {
+    width: 100%;
+}
+
+.banner5innerboximg a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.banner5innerboxtext {
+    width: 70%;
+    float: left;
+    padding-left: 14px;
+    line-height: 23px;
+    padding-top: 3px;
+}
+
+.banner5innerboxicon i.fa.fa-star {
+    font-size: 13px;
+    color: #757373;
+}
+
+
+.banner5innerboxtext a {
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    color: #757373;
+    transition: 0.5s;
+}
+
+.banner5innerboxtext p {
+    color: #757373;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+
+.banner5innerboxtext a:hover {
+    color: #0088cc;
+}
+
+
+
+.banner5part3 {
+    width: 25%;
+    float: left;
+    margin-top: 30px;
+}
+
+.banner5part3img {
+    height: 214px;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    transition: 0.5s;
+}
+
+
+.banner5part3img a {
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.banner5part3img img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.banner5part3hover1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    background: black;
+    padding: 7px 10px;
+    text-align: center;
+}
+
+.banner5part3hover1 p {
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.banner5part3hover2 a {
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    background: #0088cc;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.banner5part3hover2 {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.banner5part3img:hover .banner5part3hover2 {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+.banner5part3img img:hover {
+    transform: scale(1.1);
+}
+
+
+.flow {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.flow a {
+
+
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 700;
+    color: #3b3737;
+    font-size: 17px;
+}
+
+.flow p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #797373;
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.sale a {
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.flow a:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+
+.banner5part4 {
+    width: 75%;
+    float: right;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+
+
+.banner5part4boxes {
+    width: 100%;
+    float: left;
+}
+
+.banner5part4box1 {
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+
+.banner5part4innerbox {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.banner5part4innerboxicon i {
+    color: #0088cc;
+    font-size: 49px;
+    border: 2px solid #0088cc;
+    padding: 21px;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.banner5part4innerbox h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #585855;
+}
+
+.banner5part4innerbox h5 {
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 400;
+
+    color: #666666;
+}
+
+.banner5part4innerbox p {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #929191;
+}
+
+
+.footer {
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    background-color: #222529;
+    position: relative;
+
+}
+
+
+.footerpart1 {
+    width: 25%;
+    float: left;
+    padding-right: 20px;
+}
+
+.footer h5 {
+    font-size: 16px;
+    color: white;
+}
+
+.footerpart1img {
+    width: 100px;
+    margin-top: 15px;
+}
+
+.footerpart1img img {
+    width: 100px;
+}
+
+
+.footerpart1 p {
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    margin-top: 15px;
+    color: #a5a1a1;
+}
+
+.footerpart1 a {
+    display: inline-block;
+    margin-top: 30px;
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.footerpart2 {
+    width: 25%;
+    float: left;
+}
+
+ul.firstul {
+    margin-top: 15px;
+    list-style: none;
+}
+
+.footerpart2 span {
+    width: 100%;
+    float: left;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 3px;
+}
+
+.footerpart2 li {
+    margin: 10px 0px;
+    font-size: 13px;
+    color: #969292;
+
+}
+
+ul.firstul a {
+    display: inline-block;
+    text-decoration: none;
+    color: #969292;
+    transition: 0.5s;
+}
+
+ul.firstul a:hover {
+    color: #0088cc;
+}
+
+ul.secondul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+ul.secondul li {
+    display: inline-block;
+    padding: 2px;
+}
+
+
+ul.secondul a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #6867674f;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 17px;
+    color: white;
+    transition: 0.5s;
+}
+
+.fb a:hover {
+    background-color: #3b5a9a;
+    color: #fff;
+}
+
+.tw a:hover {
+    background-color: #1aa9e1;
+    color: #fff;
+}
+
+.lin a:hover {
+    background-color: #0073b2;
+    color: #fff;
+}
+
+
+
+
+.footerpart3 {
+    width: 25%;
+    float: left;
+}
+
+.footerpart3 ul {
+    margin-top: 15px;
+    list-style: none;
+}
+
+.footerpart3 li {
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 9px;
+}
+
+.footerpart3 a {
+    text-decoration: none;
+    border: 1px solid #6867674f;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #969292;
+    transition: 0.5s;
+}
+
+
+.footerpart3 a:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+
+.footerpart4 {
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+
+.footerpart4left {
+    padding-top: 20px;
+    float: left;
+}
+
+
+.footerpart4left p {
+    font-size: 13px;
+    color: #ffffff40;
+}
+
+
+.footerpart4right {
+
+    float: right;
+}
+
+.footerpart4right div:hover {
+    opacity: 0.8;
+}
+
+.footerpart4right div {
+    width: 70px;
+    float: left;
+}
+
+.footerpart4right div {
+    width: 70px;
+    height: 41px;
+    float: left;
+    background: white;
+    margin: 7px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.footerpart4right img {
+    width: 70px;
+    height: 45px;
+    padding: 0px;
+}
+
+
+.stri {
+    width: 50px;
+    height: 43px;
+}
+
+.stri img {
+    width: 50px;
+    height: 43px;
+    margin-left: 10px;
+}
+
+.footerboard {
+    position: absolute;
+    top: -18px;
+    left: 105px;
+    background: #0088cc;
+    padding: 8px 15px ;
+    color: white;
+    border: 10px;
+    font-family: "Shadows Into Light"
+}
+
+.footerboard p{ font-family: "Shadows Into Light"}
+
+
+.footerboard::after {
+    width: 24px;
+    height: 24px;
+    content: "";
+    position: absolute;
+    left: -6px;
+    top: 6px;
+    transform: rotate(113deg);
+    z-index: -1;
+    background: #005580;
+
+}
+img.hoverimage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: scale(0);
+    transform-origin: top;
+    transition:  0.4s
+}
+.banner5innerboximg:hover img.hoverimage{
+        transform: scale(1)
+
+}
+
+
+
+
+.slider img{
+    width: 100%;
+}
+.slick-prev {
+    left: 0;
+    z-index: 9;
+    background: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.slick-next {
+    right: 0;
+    z-index: 9;
+    background: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+ul.slick-dots li {
+    background: red;
+    border-radius: 50px;
+    width: 40px;
+    height: 10px;
+}
+
+ul.slick-dots li.slick-active {
+    background: green;
+}
